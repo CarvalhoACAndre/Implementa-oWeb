@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <script type="text/javascript" src="js/homepage.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Homepage</title>
+</head>
+<body>
+  
+ <div class="header">
+  <a href="" class="logo"><img src="img/logo.png" alt=""></a>
+  <ul class="navbar" id="mynavbar">
+    <li><a href="">APOIOS</a></li>
+    <li><a href="noticias.html">NOTÍCIAS</a></li>
+    <li><a href="">ADESÃO</a></li>
+    <li><a href="">COMUNICADOS DE IMPRENSA</a></li>
+    <box-icon class="icon1" name='envelope' type='solid' ></box-icon>
+    <box-icon class="icon2" name='facebook-square' type='logo' ></box-icon>
+    <a href="javascript:void(0);" class="menu" onclick="menu()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </ul>
+</div>
+ <div class="container text-center">
+  <div class="row">
+    <div class="col-5" onclick="switchObjectives();" id="Div1">
+      <div class="container1">
+        <div class="card">
+           <img src="img/objetivos.jpg"  class="card-img-top" alt="...">
+           <div class="card-body">
+            <div>
+             <h5 class="card-title">OBJETIVOS</h5>  
+             </div>
+           </div>
+         </div>
+       </div>
+    </div>
+    <div class="col-5" onclick="switchBackObjective();" id="objetivosHidden">
+      <div class="container1">
+          <h3>Objectivos da AAVP</h3>
+          <p>A AAVP tem por objectivo principal divulgar e potenciar o reconhecimento do trabalho dos artistas enquanto atividade profissional com elevado grau de especialização. A AAVP existe também para que os artistas visuais constituam parte ativa e solidária do tecido cultural e social no seu todo, nomeadamente na discussão das decisões políticas e sociais por forma a apoiar a construção de uma sociedade crítica, sensível e criativa.</p>
+          <p>A AAVP pretende promover boas práticas de equidade e relações laborais no trabalho realizado por artistas visuais por forma a combater iniquidades e falhas sistêmicas ligadas a esta atividade profissional específica nas relações com os agentes culturais e com o seu enquadramento fiscal e de proteção social no exercício do trabalho criativo, intelectual e também comercial. Visa também promover o diálogo entre artistas visuais e estruturas que possam ajudar na implementação dos direitos e deveres dos mesmos, de forma a dar visibilidade e instituir uma definição do estatuto do artista visual, com a sua especificidade.</p>
+          <p>A AAVP é também para produzir uma força e ponte de diálogo junto do poder político e económico. A AAVP promove a reflexão do pensamento crítico e artístico dentro do exercício de cidadania ativa, promovendo as condições para que a visibilidade da produção artística portuguesa contemporânea com uma rede internacional de entidades e personalidades do meio.</p>
+          <p>O Ministério da Cultura tem consultado periodicamente algumas associações e entidades do sector nos últimos meses para realizar uma proposta sobre o registo dos profissionais da cultura, o regime laboral e a proteção social. A revisão do estatuto do artista no qual estes colectivos e o governo têm vindo a trabalhar marca um diálogo sem precedentes.  A AAVP é solidaria e apoia as declarações e comunicados emitidos por outras entidades presentes nas negociações. Em concordância com outros sectores a AAVP, não pede mudanças de emergência, exige alterações de fundo o que até agora, talvez por desconhecimento, tem sido descurado.</p>
+          <p>AAVP reivindica o seu espaço dentro deste momento do debate apoiando-se na especificidade do trabalho de artista visual, para quem o trabalho criativo e imaterial equivale ao trabalho orientado à produtividade e ao objecto. A AAVP deseja também fazer equivaler esse conceito de trabalho ao trabalho dos outros sectores. De uma forma geral e transversal a AAVP dispõe-se a lutar por mais e melhores oportunidades de auto-sustentabilidade da/o artista em Portugal</p> 
+          
+       </div>
+    </div>
+    <div class="col">
+    </div>
+    <div class="col-5" onclick="switchMinisterio();" id="Div2">
+      <div class="container2">
+        <div class="card">
+           <img src="img/ministerio.png"  class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">MINISTÉRIO DA CULTURA E PARCERIAS</h5>
+           </div>
+         </div>
+       </div>
+    </div>
+    <div class="col-5" onclick="switchBackMinisterio();" id="ministerioHidden">
+      <div class="container2">
+           <h3>Ministério da Cultura e Parcerias</h3>
+           <p>Neste momento a AAVP encontra-se a trabalhar junto do Ministério da Cultura defendendo os interesses das/os Artistas Visuais. A AAVP considera igualmente fundamental o estabelecimento de parcerias com entidades públicas e privadas sempre que oportunas. A AAVP existe para potenciar a alteração do estado atual das coisas, mas só é possível fazer este caminho em colaboração, cientes de que todas as partes estão igualmente focadas em melhorar o tecido profissional dos artistas visuais.</p>
+           <p>Esperamos ajudar a definir soluções sólidas para o regime laboral, fiscal e contributivo do artista visual, assim como aguardamos propostas por parte do Ministério de quem esperamos a atenção e um empenho continuado no trabalho que estamos a desenvolver.</p>
+       </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-5" onclick="switchDirecao();" id="Div3">
+      <div class="container1">
+        <div class="card">
+           <img src="img/direcao.png" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">DIREÇÃO PROVISÓRIA</h5>
+           </div>
+         </div>
+       </div>
+    </div>
+    <div class="col-5" onclick="switchBackDirecao();" id="direcaoHidden">
+      <div class="container1">
+        <h3>Direção Provisória</h3>
+        <p>Ana Perez-Quiroga</p>
+        <p>Ângela Ferreira</p>
+        <p>Daniel Morera e Rita Castro Neves</p>
+        <p>Gonçalo Pena</p>
+        <p>Horácio Frutuoso</p>
+        <p>Mafalda Santos</p>
+        <p>Paulo Mendes</p>
+        <p>Pedro Barateiro</p>
+        <p>Pedro Gomes</p>
+        <p>Salomé Gomes</p>
+        <p>Susana Mendes Silva</p>
+       </div>
+    </div>
+    <div class="col" width="10px">
+    </div>
+    <div class="col-5" id="Div4">
+      <div class="container2">
+        <div class="card">
+           <img src="img/estatutos.png"  class="card-img-top" alt="...">
+           <div class="card-body2">
+            <a href="DownloadEstatutos.html">
+            <svg class="download" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="mask0_1_20" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="57" height="57">
+              <rect width="57" height="57" fill="#D9D9D9"/>
+              </mask>
+              <g mask="url(#mask0_1_20)">
+              <path d="M14.25 47.5C12.9437 47.5 11.8255 47.0349 10.8953 46.1047C9.9651 45.1745 9.5 44.0563 9.5 42.75V35.625H14.25V42.75H42.75V35.625H47.5V42.75C47.5 44.0563 47.0349 45.1745 46.1047 46.1047C45.1745 47.0349 44.0563 47.5 42.75 47.5H14.25ZM28.5 38L16.625 26.125L19.95 22.6813L26.125 28.8563V9.5H30.875V28.8563L37.05 22.6813L40.375 26.125L28.5 38Z" fill="#1C1B1F"/>
+              </g>
+              </svg>
+            </a>
+             <h5 class="card-title">ESTATUTOS</h5>
+           </div>
+         </div>
+       </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
